@@ -15,7 +15,7 @@ public class CalculatorController {
 
     @RequestMapping("/")
     public String index() {
-        return "health check";
+        return "health check v2";
     }
 
     @RequestMapping("/add")
